@@ -1,0 +1,106 @@
+/* style.css */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom right, #f0f0f0, #dcdcdc);
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+.introduction p {
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.skills, .photos {
+    flex: 1;
+    background: linear-gradient(to bottom right, #f7f7f7, #ebebeb);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.skills h2, .photos h2 {
+    color: #af5b4c;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom right, #ebebeb, #f7f7f7);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills li:last-child {
+    margin-bottom: 0;
+}
+
+.photos img {
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.photos img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer button {
+    padding: 15px 30px;
+    margin: 0 10px;
+    background: linear-gradient(to bottom right, #ff6f61, #ff5246);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+footer button:hover {
+    background: linear-gradient(to bottom right, #ff5246, #ff6f61);
+}
+
+footer button a {
+    text-decoration: none;
+    color: #fff;
+}

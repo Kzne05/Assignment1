@@ -1,0 +1,37 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+/* Color Styles */
+th[colspan], td[colspan] {
+    background-color: #f2f2f2; /* Light gray background for colspan cells */
+}
+
+th[rowspan], td[rowspan] {
+    background-color: #e6f7ff; /* Light blue background for rowspan cells */
+}
+
+/* Additional Color Styles */
+th {
+    background-color: #4CAF50; /* Dark green background for table header */
+    color: white;
+}
+
+td {
+    background-color: #eaf7d2; /* Light green background for table cells */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background color */
+}

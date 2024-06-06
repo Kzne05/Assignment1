@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color:whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.introduction p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.skills, .photos {
+    width: 48%;
+    background-color: lightblue; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.skills h2, .photos h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: whitesmoke ; 
+}
+
+.skills li:last-child {
+    margin-bottom: 0;
+}
+
+.photos img {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color:black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer button:hover {
+    background-color: grey;
+}
+
+footer button a {
+    text-decoration: none;
+    color: white;
+}
+
